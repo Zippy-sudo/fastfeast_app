@@ -6,11 +6,10 @@ The **FastFeast App** is a web application designed to help users manage restaur
 
 ## Features
 
-- **Restaurant Management**: Users can add, update, and delete restaurants.
-- **Menu Management**: Add, update, and delete items for each restaurant.
-- **Order Management**: Place and manage orders.
-- **Review Management**: Add, update, and delete reviews for restaurants.
-- **User Authentication**: Secure login and user management.
+- **Restaurant Management**: Add restaurants
+- **Menu Management**: Add items .
+- **Order Management**: Place and delete orders.
+- **Review Management**: Add, update, and delete reviews for items.
 
 ---
 
@@ -19,9 +18,7 @@ The **FastFeast App** is a web application designed to help users manage restaur
 - **Frontend**: React (with Create-React-App)
 - **Backend**: Flask
 - **Database**: SQLite (or any other database configured in the backend)
-- **Authentication**: JWT (JSON Web Tokens)
-- **State Management**: React Context API / Redux (if used)
-- **Styling**: CSS / SASS (if used)
+- **Styling**: CSS
 
 ---
 
@@ -105,7 +102,7 @@ Follow the steps below to set up the backend application.
 - GET /restaurants: Fetch all restaurants.
 - POST /restaurants: Add a new restaurant.
 - GET /restaurants/:id: Get details of a specific restaurant.
-- PUT /restaurants/:id: Update restaurant details.
+- PATCH /restaurants/:id: Update restaurant details.
 - DELETE /restaurants/:id: Delete a restaurant.
 
 ### Menu Items
@@ -113,7 +110,7 @@ Follow the steps below to set up the backend application.
 - GET /items: Get all menu items.
 - POST /items: Add a new menu item to a restaurant.
 - GET /items: Get a specificitems details
-- PUT /items/:id: Update an item.
+- PATCH /items/:id: Update an item.
 - DELETE /items/:id: Delete a menu item.
 
 ### Orders
@@ -121,7 +118,7 @@ Follow the steps below to set up the backend application.
 - GET /orders: Get all orders.
 - POST /orders: Add a new order.
 - GET /orders/:id Get a specific orders details
-- PUT /orders/:id: Update an order.
+- PATCH /orders/:id: Update an order.
 - DELETE /items/:id: Delete an order.
 
 ### Reviews
@@ -129,7 +126,7 @@ Follow the steps below to set up the backend application.
 - GET /reviews: Get all reviews.
 - POST /reviews: Add a new review.
 - GET /reviews/:id Get a specific reviews details
-- PUT /reviews/:id: Update an review.
+- PATCH /reviews/:id: Update an review.
 - DELETE /reviews/:id: Delete an review.
 
 ## License
@@ -138,7 +135,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For questions or suggestions, feel free to contact the project maintainer:
+For questions or suggestions, feel free to contact me at:
 
-Email: yourname@example.com
 GitHub: github.com/Zippy-sudo
