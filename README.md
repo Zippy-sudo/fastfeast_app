@@ -137,4 +137,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For questions or suggestions, feel free to contact me at:
 
-GitHub: github.com/Zippy-sudo
+**GitHub**: [github.com/Zippy-sudo] (https://github.com/Zippy-sudo)
