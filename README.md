@@ -131,10 +131,10 @@ Follow the steps below to set up the backend application.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the LICENSE(LICENSE) file for details.
 
 ## Contact
 
 For questions or suggestions, feel free to contact me at:
 
-**GitHub**: [github.com/Zippy-sudo] (https://github.com/Zippy-sudo)
+**GitHub**: [github.com/Zippy-sudo](https://github.com/Zippy-sudo)
